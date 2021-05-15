@@ -1,0 +1,123 @@
+@font-face{
+font-family: "Raleway";
+src: url("font/raleway2.woff2") format("woff2");
+}
+body{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Raleway", sans-serif;
+}
+a{
+    text-decoration: none;
+    color : black;
+    font-weight: bold;
+}  
+h1{
+    font-weight: bold;
+}
+h2{
+    margin-top: 0px;
+}
+ul{
+    list-style: none;
+}
+#content{
+
+    width: 1300px;
+    max-width: 1300px;
+}
+header{
+    background-color: tomato;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+nav{
+    justify-self: flex-end;
+    display: flex; 
+}
+#nav-list{
+    display: flex;
+    list-style: none;
+    margin: 5px 0px 0px 0px;  
+}
+#nav-list a{
+    width: 100%;
+    min-width: 160px;
+    display: flex;
+    justify-content: center;
+}
+aside{
+    background-color: brown;
+}
+.page-part{
+    width: 100%;
+}
+#page-part-1{
+    background-color: cadetblue;
+    display: grid;
+    grid-template-columns: 60% 37%;
+    grid-gap : 3%;
+}
+#town-accomodation {
+    grid-column: 1 / 2;
+    background-color: chartreuse;
+    padding: 45px 35px 35px 35px;
+}
+#best-accomodation{
+    background-color: rgb(7, 94, 255);
+    grid-column: 2 / 3;
+    padding: 45px 35px 35px 35px;
+}
+#accomodation-list{
+    background-color: rgb(43, 64, 65);
+    height: 440px;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-template-rows: 2fr 2fr;
+    grid-gap : 3%;
+}
+#best-list{
+    background-color: rgb(43, 64, 65);
+    height: 485px;
+    display: grid;
+    grid-template-rows: 3fr 3fr 3fr;
+    grid-gap : 3%;
+}
+#activity-list{
+    background-color: rgb(218, 105, 0);
+    height: 440px;
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr 4fr;
+    grid-template-rows: 2fr 2fr;
+    grid-gap : 3%;
+}
+#activity-1{
+    grid-row: 1 /3;
+}
+#activity-2{
+    grid-row: 1 /2;
+}
+#activity-3{
+    grid-row: 2 /3;
+}
+#activity-4{
+    grid-row: 1 /3;
+}
+footer{
+    background-color: rgb(155, 77, 22);
+    height: 215px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto 1300px auto;
+}
+#under-footer{
+    grid-column: 2 /3;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+}
+footer ul{
+    padding: 0px;
+}
