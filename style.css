@@ -145,9 +145,7 @@ h1 ~ p{
     background-color: var(--primary);
     cursor: pointer;
 }
-#search:hover{
-    background-color: #5699fd;
-}
+
 /*~~~~~~~~~~~~~filters~~~~~~~~~~~~~*/
 #filter{
     display: flex;

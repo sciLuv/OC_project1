@@ -1,0 +1,49 @@
+#nav-list a{
+    transition: all 0.2s;
+}
+#nav-list a:hover{
+    font-size: 17px;
+    transition: all 0.2s;
+}
+#search{
+    transition: all 0.2s;
+}
+#search:hover{
+    background-color: #5699fd;
+    transition: all 0.2s;
+}
+.filter div i{
+    transition: all 0.2s;
+}
+.filter:hover div i{
+    font-size: 1.6em;
+    transform: rotate(1turn);
+    transition: all 0.2s;
+}
+.filter input[value="Économique"], .filter input[value="Familial"], .filter input[value="Romantique"], .filter input[value="Animaux autorisés"]{
+    transition: all 0.2s;
+}
+.filter:hover input[value="Économique"], .filter:hover input[value="Familial"], .filter:hover input[value="Romantique"], .filter:hover input[value="Animaux autorisés"]{
+    color: var(--primary);
+    transition: all 0.2s;
+}
+.best:hover, .accomodation:hover, .activity:hover{
+    box-shadow: 10px 9px 30px -20px rgb(92, 92, 92);
+    transition: all 0.2s;
+}
+.best, .accomodation, .activity{
+    transition: all 0.2s;   
+}
+.best:hover h3, .accomodation:hover h3, .activity:hover h3{
+    color: var(--primary);
+    transition: all 0.2s;
+    
+}
+.best:hover .img, .accomodation:hover .img, .activity:hover .img{
+    opacity: 0.8;
+    transition: all 0.2s;
+    
+}
+footer a:hover{
+    font-weight: bold;
+}
