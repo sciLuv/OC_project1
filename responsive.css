@@ -4,13 +4,13 @@
 }
 @media(max-width : 1318px){
     #logo, aside, #under-footer{
-        margin-left: 25px;
+        margin-left: 31px;
     }
     #town-accomodation,#best-accomodation,#activity-list{
-        padding-left: 25px;
+        padding-left: 31px;
     }
     #activity h2{
-        margin: 25px;
+        margin: 31px;
     }
     footer{
         display: block;
@@ -48,7 +48,7 @@
         height: auto;
         grid-template-columns: 3fr 3fr 3fr;
         grid-template-rows: 2fr 2fr;
-        padding: 0px 37px 0px 25px;
+        padding: 0px 37px 0px 31px;
     }
     .activity .img{
         height: 140px !important;
@@ -82,7 +82,7 @@
         grid-row: 2 /3;
     }
 }
-@media(max-width : 1092px){
+@media(max-width : 995px){
     #filter span{
         width: 100%;
         margin-bottom: 5px;
@@ -221,7 +221,7 @@
     #activity-list{
         grid-template-columns: 1fr;
         grid-template-rows: 6fr 6fr 6fr 6fr 6fr 6fr;
-        padding: 0px 37px 0px 18px !important;
+        padding: 0px 37px 0px 31px !important;
     }
     #activity-1, #activity-2, #activity-3, #activity-5, #activity-4, #activity-6{
         grid-row: 1 / 2 ;

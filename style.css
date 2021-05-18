@@ -47,10 +47,17 @@ ul{
 .fa-search{
     visibility: hidden;
 }
-.img{
+main img{
     width: 100%;
-    background-position: 50% 50%;
-    background-size: cover;
+    height: 100%;
+    object-fit: cover;
+}
+
+.accomodation img, .activity img{
+    border-radius: 20px 20px 0px 0px;
+}
+.best img{
+    border-radius: 20px 0px 0px 20px;
 }
 #content{
     width: 100%;
@@ -251,24 +258,6 @@ span:first-child{
     height: 110px;
     border-radius: 20px 20px 0px 0px;
 }
-#accomodation-1 .img{
-    background-image: url(image/accomodation/la_Cannebiere.jpg);
-}
-#accomodation-2 .img{
-    background-image: url(image/accomodation/du_port.jpg);
-}
-#accomodation-3 .img{
-    background-image: url(image/accomodation/les_mouettes.jpg);
-}
-#accomodation-4 .img{
-    background-image: url(image/accomodation/de_la_mer.jpg);
-}
-#accomodation-5 .img{
-    background-image: url(image/accomodation/le_panier.jpg);
-}
-#accomodation-6 .img{
-    background-image: url(image/accomodation/chez_amina.jpg);
-}
 .accomodation-info{
     padding-left: 15px;
 }
@@ -306,7 +295,7 @@ span:first-child{
 .best{
     display: flex;
     height: 140px;
-    min-width: 330px;
+    min-width: 300px;
     border: solid 5px white;
     border-radius: 25px;
     background-color: white;
@@ -317,15 +306,6 @@ span:first-child{
     min-width: 140px;
 	height: auto;
     border-radius: 20px 0px 0px 20px;
-}
-#best-1 .img{
-    background-image: url(image/best/hotel_le_soleil_du_matin.jpg);
-}
-#best-2 .img{
-    background-image: url(image/best/au_coeur_de_leau_chambres_dhotes.jpg);
-}
-#best-3 .img{
-    background-image: url(image/best/hotel_tout_bleu_et_blanc.jpg);
 }
 .best .accomodation-info{
     display: flex;
@@ -386,27 +366,6 @@ margin: 0px;
 }
 #activity-6{
     grid-row: 2 /4;
-}
-
-
-
-#activity-1 .img{
-    background-image: url("image/activity/vieux_port.jpg");
-}
-#activity-2 .img{
-    background-image: url("image/activity/fort_de_pomegues.jpg");
-}
-#activity-3 .img{
-    background-image: url("image/activity/iles_du_frioul.jpg");
-}
-#activity-4 .img{
-    background-image: url("image/activity/parc_national_des_calanques.jpg");
-}
-#activity-5 .img{
-    background-image: url("image/activity/notre_dame_de_la_garde.jpg");
-}
-#activity-6 .img{
-    background-image: url("image/activity/parc_longchamp.jpg");
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~FOOTER~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 footer{
