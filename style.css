@@ -1,10 +1,7 @@
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~GENERAL~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-@font-face{
-font-family: "Raleway";
-src: url("font/raleway.woff2") format("woff2");
-}
 html{
      overflow-x: hidden;
+     font-family: 'Raleway', sans-serif;
 }
 body{
     --primary : #0065FC;
@@ -28,6 +25,7 @@ h1{
 }
 h2{
     margin: 0px 0px 25px 0px;
+    font-size: 24px;
 }
 h3{
     font-weight: bolder;
@@ -309,7 +307,6 @@ span:first-child{
     display: flex;
     height: 140px;
     min-width: 330px;
-    max-width: 700px;
     border: solid 5px white;
     border-radius: 25px;
     background-color: white;
