@@ -264,7 +264,7 @@ span:first-child{
 .accomodation-info div{
     margin-top: 5px;
 }
-#town-accomodation p{
+#town-accomodation .btn{
     margin: 0px;
     font-weight: bold;
 }
@@ -284,7 +284,7 @@ span:first-child{
     grid-template-rows: 3fr 3fr 3fr;
     grid-gap : 27px;
 }
-#best-accomodation span {
+#best-accomodation span:nth-child(1) {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -295,7 +295,7 @@ span:first-child{
 .best{
     display: flex;
     height: 140px;
-    min-width: 300px;
+    min-width:300px;
     border: solid 5px white;
     border-radius: 25px;
     background-color: white;
@@ -313,9 +313,8 @@ span:first-child{
     height: 93%;
     justify-content: space-between;
 }
-.best .accomodation-info p{
-display: flex;
-margin: 0px;
+.best .accomodation-info h3{
+    padding-right: 5px;
 }
 .best .accomodation-info p span{
  font-weight: bold;

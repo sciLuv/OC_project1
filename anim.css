@@ -47,3 +47,11 @@
 footer a:hover{
     font-weight: bold;
 }
+#town-accomodation .btn{
+    transition: all 0.2s;
+}
+#town-accomodation .btn:hover{
+    cursor: pointer;
+    color: var(--primary);
+    transition: all 0.2s;
+}
