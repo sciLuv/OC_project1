@@ -82,7 +82,7 @@ nav{
     display: flex;
     margin: 0px 0px 0px 0px;  
 }
-#nav-list a{
+#nav-list li{
     width: 140px;
     min-width: 100px;
     padding-top: 40px;
@@ -91,16 +91,18 @@ nav{
     cursor: pointer;
     border-top: solid 3px #ffffff;
 }
-#nav-list li{
+#nav-list a{
     position: relative;
     top: 5px;
 }
-#nav-list a:nth-child(1){
+#nav-list li:nth-child(1){
     color: var(--primary);
     border-top: solid 3px var(--primary);
 }
-#nav-list a:nth-child(3){
+#accomodation-link, #inscription-link{
     color: var(--primary);
+}
+#inscription-link{
     font-weight: bold;
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~MAIN~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
@@ -253,6 +255,7 @@ span:first-child{
     border: solid 5px white;
     border-radius: 25px;
     box-shadow: 0px 9px 30px -20px rgb(92, 92, 92);
+    cursor: pointer;
 }
 .accomodation .img{
     height: 110px;
@@ -284,12 +287,12 @@ span:first-child{
     grid-template-rows: 3fr 3fr 3fr;
     grid-gap : 27px;
 }
-#best-accomodation span:nth-child(1) {
+#best-accomodation #title:nth-child(1) {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-#best-accomodation span i {
+#best-accomodation #title i {
     margin-top: -15px;
 }
 .best{
@@ -337,6 +340,7 @@ span:first-child{
     border-radius: 25px;
     background-color: white;
     box-shadow: 0px 9px 30px -20px rgb(92, 92, 92);
+    cursor: pointer;
 }
 .activity .img{
     height: 162px;

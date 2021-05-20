@@ -195,22 +195,22 @@
         padding-left: 0px;
         width: 100%;
     }
-    #nav-list a{
+    #nav-list li{
         padding-top: 20px;
         padding-bottom: 10px;
         border-top: none;
         border-bottom: solid 3px var(--gray);
     }
-    #nav-list a:nth-child(1){
+    #nav-list li:nth-child(1){
         color: var(--primary);
         border-top: none;
         border-bottom: solid 3px var(--primary);
         width: 300%;
     }
-    #nav-list a:nth-child(2){
+    #nav-list li:nth-child(2){
         width: 300%;
     }
-    #nav-list a:nth-child(3){
+    #nav-list li:nth-child(3){
         position: relative;
         top: -60px;
         left: -50px;

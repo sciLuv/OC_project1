@@ -23,9 +23,9 @@
             </a>
             <nav>
                 <ul id="nav-list">
-                    <a href="#page-part-1"><li>Hébergements</li></a>
-                    <a href="#activity"><li>Activités</li></a>
-                    <a href=""><li>S'inscrire</li></a>
+                    <li><a id="accomodation-link"href="#page-part-1">Hébergements</a></li>
+                    <li><a href="#activity">Activités</a></li>
+                    <li><a id="inscription-link" href="">S'inscrire</a></li>
                 </ul>
             </nav>
         </header>
@@ -35,7 +35,7 @@
             <aside>
                 <h1>Trouvez votre hébergements pour des vacances de rêve</h1>
                 <p>En plein centre ville ou en pleine nature</p>
-                <form method="post" action=""> <!-- Dans le champ "action" le futur fichier qui gere les informations envoyées -->
+                <form method="POST" action=""> <!-- Dans le champ "action" le futur fichier qui gere les informations envoyées -->
                     <div id="search-location">
                         <div>
                             <i class="fas fa-map-marker-alt"></i>
@@ -83,8 +83,8 @@
                 <article id="town-accomodation">
                     <h2>Hébergements à Marseille</h2>
                     <ul id="accomodation-list">
-                        <a href="" id="accomodation-1" class="accomodation">
-                            <li>
+                        <li href="" id="accomodation-1" class="accomodation">
+                            <a>
                                 <div class="img">
                                     <img src="image/accomodation/la_Cannebiere.jpg" alt="chambre d'hôtel">
                                 </div>
@@ -99,10 +99,10 @@
                                         <i class="fas fa-star fa-star-gray"></i>
                                     </div>
                                 </div>
-                            </li>
-                        </a>
-                        <a href="" id="accomodation-2" class="accomodation">
-                            <li>
+                            </a>
+                        </li>
+                        <li href="" id="accomodation-2" class="accomodation">
+                            <a>
                                 <div class="img">
                                     <img  src="image/accomodation/du_port.jpg" alt="chambre d'hôtel">
                                 </div>
@@ -117,10 +117,10 @@
                                         <i class="fas fa-star" ></i>
                                     </div>
                                 </div>
-                            </li>
-                        </a>
-                        <a href="" id="accomodation-3" class="accomodation">
-                            <li>
+                            </a>
+                        </li>
+                        <li href="" id="accomodation-3" class="accomodation">
+                            <a>
                                 <div class="img">
                                     <img src="image/accomodation/les_mouettes.jpg" alt="chambre d'hôtel">
                                 </div>
@@ -135,10 +135,10 @@
                                         <i class="fas fa-star fa-star-gray"></i>
                                     </div>
                                 </div>
-                            </li>
-                        </a>
-                        <a href="" id="accomodation-4" class="accomodation">
-                            <li>
+                            </a>
+                        </li>
+                        <li href="" id="accomodation-4" class="accomodation">
+                            <a>
                                 <div class="img">
                                     <img src="image/accomodation/de_la_mer.jpg" alt="chambre d'hôtel">
                                 </div>
@@ -153,10 +153,10 @@
                                         <i class="fas fa-star fa-star-gray"></i>
                                     </div>
                                 </div>
-                            </li>
-                        </a>
-                        <a href="" id="accomodation-5" class="accomodation">
-                            <li>
+                            </a>
+                        </li>
+                        <li href="" id="accomodation-5" class="accomodation">
+                            <a>
                                 <div class="img">
                                     <img src="image/accomodation/le_panier.jpg" alt="chambre d'hôtel">
                                 </div>
@@ -171,10 +171,10 @@
                                         <i class="fas fa-star fa-star-gray"></i>
                                     </div>
                                 </div>
-                            </li>
-                        </a>
-                        <a href="" id="accomodation-6" class="accomodation">
-                            <li>
+                            </a>
+                        </li>
+                        <li href="" id="accomodation-6" class="accomodation">
+                            <a>
                                 <div class="img">
                                     <img src="image/accomodation/chez_amina.jpg" alt="chambre d'hôtel">
                                 </div>
@@ -189,23 +189,23 @@
                                         <i class="fas fa-star" ></i>
                                     </div>
                                 </div>
-                            </li>
-                        </a>
+                            </a>
+                        </li>
                     </ul>
                     <span class="btn">Afficher plus</span>
                 </article>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ARTICLE2~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
                 <article id="best-accomodation">
-                    <span>
-                        <h2>Les plus populaires</h2> <!--chart-line-->
+                    <div id="title">
+                        <h2>Les plus populaires</h2>
                         <i class="fas fa-chart-line fa-lg"></i>
-                    </span>
+                    </div>
                     <ul id="best-list">
-                        <a href="" id="best-1" class="best">
-                            <div class="img">
-                                <img src="image/best/hotel_le_soleil_du_matin.jpg" alt="chambre d'hôtel">
-                            </div>
-                            <li> 
+                        <li>
+                            <a href="" id="best-1" class="best">
+                                <div class="img">
+                                    <img src="image/best/hotel_le_soleil_du_matin.jpg" alt="chambre d'hôtel">
+                                </div>
                                 <div class="accomodation-info">
                                     <div>
                                         <h3>Hôtel Le soleil du matin</h3>
@@ -219,13 +219,13 @@
                                         <i class="fas fa-star" ></i>
                                     </div>
                                 </div>
-                            </li>
-                        </a>
-                        <a href="" id="best-2" class="best">
-                            <div class="img">
-                                <img src="image/best/au_coeur_de_leau_chambres_dhotes.jpg" alt="chambre d'hôtel">
-                            </div>
-                            <li>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" id="best-2" class="best">
+                                <div class="img">
+                                    <img src="image/best/au_coeur_de_leau_chambres_dhotes.jpg" alt="chambre d'hôtel">
+                                </div>
                                 <div class="accomodation-info">
                                     <div>
                                         <h3>Au coeur de l'eau Chambres d'hôtes</h3>
@@ -239,14 +239,13 @@
                                         <i class="fas fa-star fa-star-gray"></i>
                                     </div>
                                 </div>
-                            </li>
-                        </a>
-                        <a href="" id="best-3" class="best">
-                            <div class="img">
-                                <img src="image/best/hotel_tout_bleu_et_blanc.jpg" alt="chambre d'hôtel">
-                            </div>
-                            
-                            <li>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" id="best-3" class="best">
+                                <div class="img">
+                                    <img src="image/best/hotel_tout_bleu_et_blanc.jpg" alt="chambre d'hôtel">
+                                </div> 
                                 <div class="accomodation-info">
                                     <div>
                                         <h3>Hôtel Tout bleu et blanc</h3>
@@ -260,8 +259,8 @@
                                         <i class="fas fa-star fa-star-gray"></i>
                                     </div>
                                 </div>
-                            </li>
-                        </a>
+                            </a>
+                        </li>
                     </ul>
                 </article>
             </div>
@@ -269,8 +268,8 @@
             <article id="activity" class="page-part">
                 <h2>Activités à Marseille</h2>
                 <ul id="activity-list">
-                    <a href="" id="activity-1" class="activity">
-                        <li>
+                    <li href="" id="activity-1" class="activity">
+                        <a>
                             <div class="img img-big">
                                 <img src="image/activity/vieux_port.jpg" alt="port de Marseille">
                             </div>
@@ -278,58 +277,58 @@
                             <div class="activity-name">
                                 <h3>Vieux Port</h3>
                             </div>
-                        </li>
-                    </a>
-                    <a href="" id="activity-2" class="activity">
-                        <li>
+                        </a>
+                    </li>
+                    <li href="" id="activity-2" class="activity">
+                        <a>
                             <div class="img img-middle">
                                 <img src="image/activity/fort_de_pomegues.jpg" alt="Fort de Pomègues">
                             </div>
                             <div class="activity-name">
                                 <h3>Fort de Pomègues</h3>
                             </div>
-                        </li>
-                    </a>
-                    <a href="" id="activity-3" class="activity">
-                        <li>
+                        </a>
+                    </li>
+                    <li href="" id="activity-3" class="activity">
+                        <a>
                             <div class="img img-little">
                                 <img  src="image/activity/iles_du_frioul.jpg" alt="Îles du Frioul">
                             </div>
                             <div class="activity-name">
                                 <h3>Îles du Frioul</h3>
                             </div>
-                        </li>
-                    </a>
-                    <a href="" id="activity-4" class="activity">
-                        <li>
+                        </a>
+                    </li>
+                    <li href="" id="activity-4" class="activity">
+                        <a>
                             <div class="img img-big">
                                 <img src="image/activity/parc_national_des_calanques.jpg" alt="Parc National des Calanques">
                             </div>
                             <div class="activity-name">
                                 <h3>Parc National des Calanques</h3>
                             </div>
-                        </li>
-                    </a>
-                    <a href="" id="activity-5" class="activity">
-                        <li>
+                        </a>
+                    </li>
+                    <li href="" id="activity-5" class="activity">
+                        <a>
                             <div class="img img-little">
                                 <img  src="image/activity/notre_dame_de_la_garde.jpg" alt="Notre-Dame-de-la-Garde">
                             </div>
                             <div class="activity-name">
                                 <h3>Notre-Dame-de-la-Garde</h3>
                             </div>
-                        </li>
-                    </a>
-                    <a href="" id="activity-6" class="activity">
-                        <li>
+                        </a>
+                    </li>
+                    <li href="" id="activity-6" class="activity">
+                        <a>
                             <div class="img img-middle">
                                 <img  src="image/activity/parc_longchamp.jpg" alt="Parc Longchamp">
                             </div>
                             <div class="activity-name">
                                 <h3>Parc Longchamp</h3>
                             </div>
-                        </li>
-                    </a>
+                        </a>
+                    </li>
                 </ul>
             </article>
         </main>
@@ -340,23 +339,23 @@
         <div>
             <h2>A propos</h2>
             <ul>
-                <a href=""><li>Fonctionnement du site</li></a>
-                <a href=""><li>Conditions générales de vente</li></a>
-                <a href=""><li>Données et confidentialité</li></a>
+                <li><a href="">Fonctionnement du site</a></li>
+                <li><a href="">Conditions générales de vente</a></li>
+                <li><a href="">Données et confidentialité</a></li>
             </ul>
         </div>
         <div>
             <h2>Nos hébergements</h2>
             <ul>
-                <a href=""><li>Charte qualité</li></a>
-                <a href=""><li>Soumettre votre hôtel</li></a>
+                <li><a href="">Charte qualité</a></li>
+                <li><a href="">Soumettre votre hôtel</a></li>
             </ul>
         </div>
         <div>
             <h2>Assitance</h2>
             <ul>
-                <a href=""><li>Centre d'aide</li></a>
-                <a href=""><li>Nous contacter</li></a>
+                <li><a href="">Centre d'aide</a></li>
+                <li><a href="">Nous contacter</a></li>
             </ul>
         </div>
     </div>
