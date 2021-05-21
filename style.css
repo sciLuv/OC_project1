@@ -314,6 +314,7 @@ span:first-child{
     display: flex;
     flex-direction: column;
     height: 93%;
+    max-height: 131px;
     justify-content: space-between;
 }
 .best .accomodation-info h3{

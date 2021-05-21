@@ -88,7 +88,7 @@
         grid-row: 2 /3;
     }
 }
-@media(max-width : 1020px){
+@media(max-width : 1055px){
     #best-list{
         grid-gap : 12px;
     }
@@ -101,7 +101,7 @@
     }
     
 }
-@media(max-width : 915px){
+@media(max-width : 940px){
     #filter span{
         width: 100%;
         margin-bottom: 5px;
@@ -157,8 +157,6 @@
     #activity-6{
         grid-row: 3 / 4;
     }
-}
-@media(max-width : 940px){
     footer{
         height: 100%;
     }
@@ -269,8 +267,6 @@
         grid-row: 6 / 7;
     }
 
-}
-@media(max-width : 768px){
 }
 @media(max-width : 499px){
     #logo, aside, #under-footer{
